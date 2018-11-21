@@ -1,0 +1,115 @@
+html,body{
+  height:100%;
+  margin:0;
+  background-color:#4080bf;
+  font-family: 'Raleway', sans-serif;
+    
+}
+/*START of NAV BAR*/
+nav{
+  height:20%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin:10px;
+  box-sizing: border-box;
+}
+div{
+  height:100%;
+  width:50%;
+}
+#home{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#logo{
+  height:100%;
+  width:100%;
+}
+
+.buttons{
+  height:33%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+a{
+  text-decoration:none;
+  color:#FFFF00;
+  display:block;
+}
+a:hover{
+    text-decoration: underline;
+    color:#D4AF37;
+}
+a:visited{
+    text-decoration:none;
+    color:#D4AF37;
+}
+/*END of NAV BAR*/
+/*START of main section*/
+.bodysection{
+    box-sizing: border-box;
+    border: groove;
+    border-color:#D4AF37;
+    margin:4px;
+    color:black;
+    padding:20px;
+    text-align:justify;
+   /* font-size:3vw;*/
+    color:#FFFFFF;
+}
+.food{
+    display:flex;
+    align-self:flex-start;
+    padding:5px;
+}
+#foodone, #foodtwo, #foodthree, #foodfour, #foodfive, #foodsix{
+    width:100%;
+    margin-bottom: 10px;
+}
+/*END of main section*/
+
+@media only screen and (min-width:450px){
+  
+
+#foodone, #foodtwo, #foodthree, #foodfour, #foodfive, #foodsix{
+    margin:10px;
+    box-sizing:border-box;
+    width:100%;
+}
+#foodone{
+    margin:10px;
+    box-sizing:border-box;
+    width:100%;
+}
+section{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.bodysection{
+  
+}
+
+/*div{
+  height:100%;
+  width:50%;
+  flex-direction:column;
+}*/
+
+  
+  #logo{
+  width:30%;
+  
+ 
+}
+  #links{
+  height:20%;
+  display:flex;
+  justify-content:flex-start;
+  justify-content:space-around;
+}
+}
